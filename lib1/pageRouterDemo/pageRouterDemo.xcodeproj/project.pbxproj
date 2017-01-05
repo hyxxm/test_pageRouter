@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14E8C851E1DEB1900071DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8C841E1DEB1900071DD3 /* main.m */; };
+		A14E8C881E1DEB1900071DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8C871E1DEB1900071DD3 /* AppDelegate.m */; };
+		A14E8C8B1E1DEB1900071DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8C8A1E1DEB1900071DD3 /* ViewController.m */; };
+		A14E8C8E1E1DEB1900071DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14E8C8C1E1DEB1900071DD3 /* Main.storyboard */; };
+		A14E8C901E1DEB1900071DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14E8C8F1E1DEB1900071DD3 /* Assets.xcassets */; };
+		A14E8C931E1DEB1900071DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14E8C911E1DEB1900071DD3 /* LaunchScreen.storyboard */; };
+		A14E8C9E1E1DEB1900071DD3 /* pageRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8C9D1E1DEB1900071DD3 /* pageRouterDemoTests.m */; };
+		A14E8CA91E1DEB1900071DD3 /* pageRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8CA81E1DEB1900071DD3 /* pageRouterDemoUITests.m */; };
+		A14E8CC11E1DEB3B00071DD3 /* HJPageRouterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8CBA1E1DEB3B00071DD3 /* HJPageRouterAPI.m */; };
+		A14E8CC21E1DEB3B00071DD3 /* HJPageRouterInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8CBC1E1DEB3B00071DD3 /* HJPageRouterInterface.m */; };
+		A14E8CC31E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8CBE1E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.m */; };
+		A14E8CC41E1DEB3B00071DD3 /* UIViewController+PageRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E8CC01E1DEB3B00071DD3 /* UIViewController+PageRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14E8C9A1E1DEB1900071DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14E8C781E1DEB1900071DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14E8C7F1E1DEB1900071DD3;
+			remoteInfo = pageRouterDemo;
+		};
+		A14E8CA51E1DEB1900071DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14E8C781E1DEB1900071DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14E8C7F1E1DEB1900071DD3;
+			remoteInfo = pageRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14E8C801E1DEB1900071DD3 /* pageRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pageRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E8C841E1DEB1900071DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A14E8C861E1DEB1900071DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A14E8C871E1DEB1900071DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A14E8C891E1DEB1900071DD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A14E8C8A1E1DEB1900071DD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A14E8C8D1E1DEB1900071DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14E8C8F1E1DEB1900071DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14E8C921E1DEB1900071DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14E8C941E1DEB1900071DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14E8C991E1DEB1900071DD3 /* pageRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E8C9D1E1DEB1900071DD3 /* pageRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageRouterDemoTests.m; sourceTree = "<group>"; };
+		A14E8C9F1E1DEB1900071DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14E8CA41E1DEB1900071DD3 /* pageRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E8CA81E1DEB1900071DD3 /* pageRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageRouterDemoUITests.m; sourceTree = "<group>"; };
+		A14E8CAA1E1DEB1900071DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14E8CB71E1DEB3B00071DD3 /* HJPageRouteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageRouteProtocol.h; sourceTree = "<group>"; };
+		A14E8CB81E1DEB3B00071DD3 /* HJPageRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageRouter.h; sourceTree = "<group>"; };
+		A14E8CB91E1DEB3B00071DD3 /* HJPageRouterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageRouterAPI.h; sourceTree = "<group>"; };
+		A14E8CBA1E1DEB3B00071DD3 /* HJPageRouterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPageRouterAPI.m; sourceTree = "<group>"; };
+		A14E8CBB1E1DEB3B00071DD3 /* HJPageRouterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageRouterInterface.h; sourceTree = "<group>"; };
+		A14E8CBC1E1DEB3B00071DD3 /* HJPageRouterInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPageRouterInterface.m; sourceTree = "<group>"; };
+		A14E8CBD1E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CompletionHandler.h"; sourceTree = "<group>"; };
+		A14E8CBE1E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CompletionHandler.m"; sourceTree = "<group>"; };
+		A14E8CBF1E1DEB3B00071DD3 /* UIViewController+PageRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageRouter.h"; sourceTree = "<group>"; };
+		A14E8CC01E1DEB3B00071DD3 /* UIViewController+PageRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageRouter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14E8C7D1E1DEB1900071DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8C961E1DEB1900071DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8CA11E1DEB1900071DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14E8C771E1DEB1900071DD3 = {
+			isa = PBXGroup;
+			children = (
+				A14E8C821E1DEB1900071DD3 /* pageRouterDemo */,
+				A14E8C9C1E1DEB1900071DD3 /* pageRouterDemoTests */,
+				A14E8CA71E1DEB1900071DD3 /* pageRouterDemoUITests */,
+				A14E8C811E1DEB1900071DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14E8C811E1DEB1900071DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8C801E1DEB1900071DD3 /* pageRouterDemo.app */,
+				A14E8C991E1DEB1900071DD3 /* pageRouterDemoTests.xctest */,
+				A14E8CA41E1DEB1900071DD3 /* pageRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14E8C821E1DEB1900071DD3 /* pageRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8CB61E1DEB3B00071DD3 /* pageRouter */,
+				A14E8C861E1DEB1900071DD3 /* AppDelegate.h */,
+				A14E8C871E1DEB1900071DD3 /* AppDelegate.m */,
+				A14E8C891E1DEB1900071DD3 /* ViewController.h */,
+				A14E8C8A1E1DEB1900071DD3 /* ViewController.m */,
+				A14E8C8C1E1DEB1900071DD3 /* Main.storyboard */,
+				A14E8C8F1E1DEB1900071DD3 /* Assets.xcassets */,
+				A14E8C911E1DEB1900071DD3 /* LaunchScreen.storyboard */,
+				A14E8C941E1DEB1900071DD3 /* Info.plist */,
+				A14E8C831E1DEB1900071DD3 /* Supporting Files */,
+			);
+			path = pageRouterDemo;
+			sourceTree = "<group>";
+		};
+		A14E8C831E1DEB1900071DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8C841E1DEB1900071DD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A14E8C9C1E1DEB1900071DD3 /* pageRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8C9D1E1DEB1900071DD3 /* pageRouterDemoTests.m */,
+				A14E8C9F1E1DEB1900071DD3 /* Info.plist */,
+			);
+			path = pageRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		A14E8CA71E1DEB1900071DD3 /* pageRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8CA81E1DEB1900071DD3 /* pageRouterDemoUITests.m */,
+				A14E8CAA1E1DEB1900071DD3 /* Info.plist */,
+			);
+			path = pageRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		A14E8CB61E1DEB3B00071DD3 /* pageRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A14E8CB71E1DEB3B00071DD3 /* HJPageRouteProtocol.h */,
+				A14E8CB81E1DEB3B00071DD3 /* HJPageRouter.h */,
+				A14E8CB91E1DEB3B00071DD3 /* HJPageRouterAPI.h */,
+				A14E8CBA1E1DEB3B00071DD3 /* HJPageRouterAPI.m */,
+				A14E8CBB1E1DEB3B00071DD3 /* HJPageRouterInterface.h */,
+				A14E8CBC1E1DEB3B00071DD3 /* HJPageRouterInterface.m */,
+				A14E8CBD1E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.h */,
+				A14E8CBE1E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.m */,
+				A14E8CBF1E1DEB3B00071DD3 /* UIViewController+PageRouter.h */,
+				A14E8CC01E1DEB3B00071DD3 /* UIViewController+PageRouter.m */,
+			);
+			path = pageRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14E8C7F1E1DEB1900071DD3 /* pageRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14E8CAD1E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemo" */;
+			buildPhases = (
+				A14E8C7C1E1DEB1900071DD3 /* Sources */,
+				A14E8C7D1E1DEB1900071DD3 /* Frameworks */,
+				A14E8C7E1E1DEB1900071DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pageRouterDemo;
+			productName = pageRouterDemo;
+			productReference = A14E8C801E1DEB1900071DD3 /* pageRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14E8C981E1DEB1900071DD3 /* pageRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14E8CB01E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemoTests" */;
+			buildPhases = (
+				A14E8C951E1DEB1900071DD3 /* Sources */,
+				A14E8C961E1DEB1900071DD3 /* Frameworks */,
+				A14E8C971E1DEB1900071DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14E8C9B1E1DEB1900071DD3 /* PBXTargetDependency */,
+			);
+			name = pageRouterDemoTests;
+			productName = pageRouterDemoTests;
+			productReference = A14E8C991E1DEB1900071DD3 /* pageRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14E8CA31E1DEB1900071DD3 /* pageRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14E8CB31E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemoUITests" */;
+			buildPhases = (
+				A14E8CA01E1DEB1900071DD3 /* Sources */,
+				A14E8CA11E1DEB1900071DD3 /* Frameworks */,
+				A14E8CA21E1DEB1900071DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14E8CA61E1DEB1900071DD3 /* PBXTargetDependency */,
+			);
+			name = pageRouterDemoUITests;
+			productName = pageRouterDemoUITests;
+			productReference = A14E8CA41E1DEB1900071DD3 /* pageRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14E8C781E1DEB1900071DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = hejiahuan;
+				TargetAttributes = {
+					A14E8C7F1E1DEB1900071DD3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A14E8C981E1DEB1900071DD3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A14E8C7F1E1DEB1900071DD3;
+					};
+					A14E8CA31E1DEB1900071DD3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A14E8C7F1E1DEB1900071DD3;
+					};
+				};
+			};
+			buildConfigurationList = A14E8C7B1E1DEB1900071DD3 /* Build configuration list for PBXProject "pageRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14E8C771E1DEB1900071DD3;
+			productRefGroup = A14E8C811E1DEB1900071DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14E8C7F1E1DEB1900071DD3 /* pageRouterDemo */,
+				A14E8C981E1DEB1900071DD3 /* pageRouterDemoTests */,
+				A14E8CA31E1DEB1900071DD3 /* pageRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14E8C7E1E1DEB1900071DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E8C931E1DEB1900071DD3 /* LaunchScreen.storyboard in Resources */,
+				A14E8C901E1DEB1900071DD3 /* Assets.xcassets in Resources */,
+				A14E8C8E1E1DEB1900071DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8C971E1DEB1900071DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8CA21E1DEB1900071DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14E8C7C1E1DEB1900071DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E8CC31E1DEB3B00071DD3 /* UINavigationController+CompletionHandler.m in Sources */,
+				A14E8C8B1E1DEB1900071DD3 /* ViewController.m in Sources */,
+				A14E8CC41E1DEB3B00071DD3 /* UIViewController+PageRouter.m in Sources */,
+				A14E8C881E1DEB1900071DD3 /* AppDelegate.m in Sources */,
+				A14E8CC21E1DEB3B00071DD3 /* HJPageRouterInterface.m in Sources */,
+				A14E8CC11E1DEB3B00071DD3 /* HJPageRouterAPI.m in Sources */,
+				A14E8C851E1DEB1900071DD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8C951E1DEB1900071DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E8C9E1E1DEB1900071DD3 /* pageRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14E8CA01E1DEB1900071DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E8CA91E1DEB1900071DD3 /* pageRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14E8C9B1E1DEB1900071DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14E8C7F1E1DEB1900071DD3 /* pageRouterDemo */;
+			targetProxy = A14E8C9A1E1DEB1900071DD3 /* PBXContainerItemProxy */;
+		};
+		A14E8CA61E1DEB1900071DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14E8C7F1E1DEB1900071DD3 /* pageRouterDemo */;
+			targetProxy = A14E8CA51E1DEB1900071DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14E8C8C1E1DEB1900071DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14E8C8D1E1DEB1900071DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14E8C911E1DEB1900071DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14E8C921E1DEB1900071DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14E8CAB1E1DEB1900071DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14E8CAC1E1DEB1900071DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14E8CAE1E1DEB1900071DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pageRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A14E8CAF1E1DEB1900071DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pageRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A14E8CB11E1DEB1900071DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pageRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pageRouterDemo.app/pageRouterDemo";
+			};
+			name = Debug;
+		};
+		A14E8CB21E1DEB1900071DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pageRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pageRouterDemo.app/pageRouterDemo";
+			};
+			name = Release;
+		};
+		A14E8CB41E1DEB1900071DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pageRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pageRouterDemo;
+			};
+			name = Debug;
+		};
+		A14E8CB51E1DEB1900071DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pageRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hejia.pageRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pageRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14E8C7B1E1DEB1900071DD3 /* Build configuration list for PBXProject "pageRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E8CAB1E1DEB1900071DD3 /* Debug */,
+				A14E8CAC1E1DEB1900071DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14E8CAD1E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E8CAE1E1DEB1900071DD3 /* Debug */,
+				A14E8CAF1E1DEB1900071DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A14E8CB01E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E8CB11E1DEB1900071DD3 /* Debug */,
+				A14E8CB21E1DEB1900071DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A14E8CB31E1DEB1900071DD3 /* Build configuration list for PBXNativeTarget "pageRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E8CB41E1DEB1900071DD3 /* Debug */,
+				A14E8CB51E1DEB1900071DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14E8C781E1DEB1900071DD3 /* Project object */;
+}
