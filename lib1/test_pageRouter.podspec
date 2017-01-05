@@ -9,5 +9,5 @@ s.authors = { '' => '' }
 s.source = { :git => 'https://github.com/tianyahaijiaoHYX520/test_pageRouter.git', :tag => '1.0.0' }
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
-s.source_files = 'pageRouter/**/*.{h,m}'
+s.source_files = 'lib1/pageRouter/**/*.{h,m}'
 end
